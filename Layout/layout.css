@@ -1,0 +1,33 @@
+html{
+	background: #301b00;
+	height: 100%;
+	padding: 80px;
+	padding-bottom: 100px;
+	-moz-box-sizing: border-box;
+}
+
+body{
+	height: 100%;
+}
+
+p{
+	overflow: auto;
+	background: #35352e;
+	height: 100%;
+	-moz-box-sizing: border-box;
+	padding: 50px;
+	border-radius: 15px;
+	box-shadow: 0 0 30px 40px #35352e;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: monospace, courier, terminal;
+	color: #ffb44c;
+	text-shadow: 5px 5px 1px #111111, 0 0 2px #ffb44c;
+}
+
+div{
+	background: url("Fingerabdruck.png") top left no-repeat;
+	color: #ff8800;
+	text-shadow: 5px 5px 1px #111111, 0 0 50px #a30000, 0 0 2px #ff8800;
+	cursor: pointer;
+}
